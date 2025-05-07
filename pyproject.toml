@@ -1,0 +1,21 @@
+[project]
+name = "llama-models"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "sampath",email = "118274231+sampath017@users.noreply.github.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "transformers (>=4.51.3,<5.0.0)",
+    "jupyter (>=1.1.1,<2.0.0)",
+    "notebook (>=7.4.2,<8.0.0)",
+    "autopep8 (>=2.3.2,<3.0.0)",
+    "torch (>=2.7.0,<3.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
