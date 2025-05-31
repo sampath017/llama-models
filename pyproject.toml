@@ -5,12 +5,15 @@ description = ""
 authors = ["Your Name <you@example.com>"]
 readme = "README.md"
 
-[tool.poetry.dependencies]
-python = "^3.12"
-transformers = "^4.51.3"
-jupyter = "^1.1.1"
-notebook = "^7.4.2"
-autopep8 = "^2.3.2"
+requires-python = ">=3.12,<4.0"
+dependencies = [
+    "transformers (>=4.51.3,<5.0.0)",
+    "jupyter (>=1.1.1,<2.0.0)",
+    "notebook (>=7.4.2,<8.0.0)",
+    "autopep8 (>=2.3.2,<3.0.0)",
+    "torch (>=2.7.0,<3.0.0)",
+    "langchain (>=0.3.25,<0.4.0)"
+]
 
 
 [build-system]
